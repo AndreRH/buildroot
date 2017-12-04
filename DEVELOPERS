@@ -32,6 +32,16 @@ F:	package/gstreamer1/gst1-rtsp-server/
 N:	Adam Duskett <aduskett@gmail.com>
 F:	package/audit/
 F:	package/checkpolicy/
+<<<<<<< HEAD
+=======
+F:	package/cppdb/
+F:	package/gstreamer1/gstreamer1/
+F:	package/gstreamer1/gstreamer1-mm/
+F:	package/gstreamer1/gst1-plugins-bad/
+F:	package/gstreamer1/gst1-plugins-base/
+F:	package/gstreamer1/gst1-plugins-good/
+F:	package/gstreamer1/gst1-plugins-ugly/
+>>>>>>> f087d9f861 (gstreamer1-mm: new package)
 F:	package/gstreamer1/gst1-vaapi/
 F:	package/libselinux/
 F:	package/libsemanage/
