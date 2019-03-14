@@ -463,6 +463,13 @@ F:	package/unscd/
 N:	Ed Swierk <eswierk@skyportsystems.com>
 F:	package/xxhash/
 
+<<<<<<< HEAD
+=======
+N:	Eloi Bail <eloi.bail@savoirfairelinux.com>
+F:	package/bayer2rgb-neon/
+F:	package/gstreamer1/gst1-plugins-bayer2rgb-neon/
+
+>>>>>>> a9b95112f1 (package/gst1-plugins-bayer2rgb-neon: new package)
 N:	Eric Le Bihan <eric.le.bihan.dev@free.fr>
 F:	package/adwaita-icon-theme/
 F:	package/darkhttpd/
