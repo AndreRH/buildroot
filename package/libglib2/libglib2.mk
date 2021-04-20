@@ -98,6 +98,7 @@ HOST_LIBGLIB2_CONF_OPTS = \
 	--disable-selinux \
 	--disable-systemtap \
 	--disable-xattr \
+	--disable-compile-warnings \
 	--with-pcre=system
 
 LIBGLIB2_DEPENDENCIES = \
