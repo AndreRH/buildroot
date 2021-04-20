@@ -1,0 +1,17 @@
+Index: b/libsanitizer/sanitizer_common/sanitizer_platform_limits_posix.cc
+===================================================================
+--- a/libsanitizer/sanitizer_common/sanitizer_platform_limits_posix.cc
++++ b/libsanitizer/sanitizer_common/sanitizer_platform_limits_posix.cc
+@@ -186,6 +186,12 @@
+ #include "sanitizer_internal_defs.h"
+ #include "sanitizer_platform_limits_posix.h"
+ 
++
++#ifndef EVIOCGPROP
++#define EVIOCGPROP(len)		_IOC(_IOC_READ, 'E', 0x09, len)
++#endif
++
++
+ namespace __sanitizer {
+   unsigned struct_utsname_sz = sizeof(struct utsname);
+   unsigned struct_stat_sz = sizeof(struct stat);
