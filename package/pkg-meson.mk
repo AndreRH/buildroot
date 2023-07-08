@@ -25,8 +25,8 @@
 # $(HOST_DIR)/bin/python3 will not look for Meson modules in
 # $HOME/.local/lib/python3.x/site-packages
 #
-MESON		= PYTHONNOUSERSITE=y $(HOST_DIR)/bin/meson
-NINJA		= PYTHONNOUSERSITE=y $(HOST_DIR)/bin/ninja
+MESON		= PYTHONNOUSERSITE=y $(HOST_DIR)/usr/bin/meson
+NINJA		= PYTHONNOUSERSITE=y $(HOST_DIR)/usr/bin/ninja
 NINJA_OPTS	= $(if $(VERBOSE),-v) -j$(PARALLEL_JOBS)
 
 ################################################################################
